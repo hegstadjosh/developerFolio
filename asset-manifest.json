@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.699532b1.css",
-    "main.js": "/developerFolio/static/js/main.001ea012.js",
+    "main.js": "/developerFolio/static/js/main.5fe45645.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.55778cdc.chunk.js": "/developerFolio/static/js/64.55778cdc.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
@@ -10,7 +10,6 @@
     "static/media/snapAR.webp": "/developerFolio/static/media/snapAR.00ba21068603da941e12.webp",
     "static/media/arMusic.webp": "/developerFolio/static/media/arMusic.46cb1e28f707f8c723f8.webp",
     "static/media/suitsLogo.webp": "/developerFolio/static/media/suitsLogo.1d9aa7f50ca43235d604.webp",
-    "static/media/resume.pdf": "/developerFolio/static/media/resume.50b794a54e83537aca62.pdf",
     "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -22,7 +21,7 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.699532b1.css.map": "/developerFolio/static/css/main.699532b1.css.map",
-    "main.001ea012.js.map": "/developerFolio/static/js/main.001ea012.js.map",
+    "main.5fe45645.js.map": "/developerFolio/static/js/main.5fe45645.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.55778cdc.chunk.js.map": "/developerFolio/static/js/64.55778cdc.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.699532b1.css",
-    "static/js/main.001ea012.js"
+    "static/js/main.5fe45645.js"
   ]
 }
