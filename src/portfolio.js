@@ -197,7 +197,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "MAJOR PROJECTS IN AUGMENTED REALITY",
+  subtitle: "AR, AI, Web Dev...",
   projects: [
     {
       image: require("./assets/images/hccLogo.webp"),
@@ -213,7 +213,7 @@ const bigProjects = {
     {
       image: require("./assets/images/suitsLogo.webp"),
       projectName: "2025 NASA SUITS Challenge",
-      projectDesc: "Leading SWE team to develop Augmented Reality guidance systems for astronauts (Hololens 2, *new devices*)",
+      projectDesc: "Leading SWE team to develop Augmented Reality guidance systems for astronauts (Hololens 2, Snap Spectacles)",
       footerLink: [
         {
           name: "Last Year's Project",
@@ -233,13 +233,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/snapAR.webp"), // You'll need to add this image
-      projectName: "Snap AR PKM",
-      projectDesc: "Winter internship integrating AR glasses with personal knowledge management",
+      image: require("./assets/images/investorgoggles.webp"), // You'll need to add this image
+      projectName: "Investor Goggles",
+      projectDesc: "Integrating AR glasses with personal knowledge management for real-time investor insights.",
       footerLink: [
         {
           name: "In Progress",
-          url: "#"
+          url: "https://investorgoggles.com"
         }
       ]
     }
