@@ -151,7 +151,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "SPMH Fund",
-      companylogo: require("./assets/images/CBLLogo.jpg"),
+      // companylogo: require("./assets/images/CBLLogo.jpg"),
       date: "Dec 2024 - Present",
       desc: "This is a self-guided project integrating LLM knowledge management with the Snap Spectacles 24 AR glasses. I've set up a web server and frontend (served through Flask) as the knowledge management center, which connects to a multi-faceted information capture/saving/retrieval app on the Spectacles.",
       footerLink: [
