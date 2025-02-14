@@ -138,7 +138,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "AMLAH - Columbia Build Lab",
-      companylogo: require("./assets/images/CBLLogo.jpg"),
+      companylogo: require("./assets/images/CBLLogo.png"),
       date: "Jan 2025 - Present",
       desc: "Agile development with a small team of engineers: AWS, React, and misc. web dev. as needed",
       footerLink: [
