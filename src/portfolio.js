@@ -23,9 +23,9 @@ const greeting = {
   username: "Josh Hegstad",
   title: "Hi, I'm Josh",
   subTitle: emoji(
-    "Computer Science student at Columbia University 🚀 with experience in cybersecurity, Augmented Reality development, and full-stack programming. I'm passionate about tech, currently building AR-AI projects with Python, Java, C, C#, SQL, and Javascript. (Oh, and Cursor AI!)"
+    "Computer Science student at Columbia University 🚀 with experience in cybersecurity, Augmented Reality development, and full-stack programming. I'm passionate about tech, currently building AR-AI projects with Python, Java, C, C#, SQL, and Javascript. (Oh, and Cursor!)"
   ),
-  //resumeLink: "https://drive.google.com/file/d/1iTDxKDLM4FqjnNTgOqokgVbE2EfrV9Iq/view?usp=sharing", // You can add your resume link here if desired
+  resumeLink: "https://drive.google.com/file/d/1UR_f9z0CR_hvZu-ESUar35VFieWRR3_g/view?usp=sharing", // You can add your resume link here if desired
   displayGreeting: true
 };
 
@@ -45,7 +45,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "EXPLORING TECH STACKS",
   skills: [
-    emoji("⚡ Develop Augmented Reality applications for practical applications like astronaut guidance"),
+    emoji("⚡ Develop Augmented Reality applications for investors and astronauts"),
     emoji("⚡ Build and implement cybersecurity solutions and automation tools"),
     emoji("⚡ Create full-stack applications with focus on database management, cloud servers, and API integration")
   ],
