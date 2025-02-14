@@ -23,9 +23,9 @@ const greeting = {
   username: "Josh Hegstad",
   title: "Hi, I'm Josh",
   subTitle: emoji(
-    "A Computer Science student at Columbia University 🚀 with experience in cybersecurity, AR development, and full-stack programming. Passionate about combining technology and innovation through projects in Python, Java, C, C#, SQL, and Javascript."
+    "Computer Science student at Columbia University 🚀 with experience in cybersecurity, Augmented Reality development, and full-stack programming. I'm passionate about tech, currently building AR-AI projects with Python, Java, C, C#, SQL, and Javascript. (Oh, and Cursor AI!)"
   ),
-  resumeLink: "", // You can add your resume link here if desired
+  //resumeLink: "https://drive.google.com/file/d/1iTDxKDLM4FqjnNTgOqokgVbE2EfrV9Iq/view?usp=sharing", // You can add your resume link here if desired
   displayGreeting: true
 };
 
@@ -43,11 +43,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CS STUDENT EXPLORING DIVERSE TECH STACKS WITH FOCUS ON AR/VR AND CYBERSECURITY",
+  subTitle: "EXPLORING TECH STACKS",
   skills: [
     emoji("⚡ Develop Augmented Reality applications for practical applications like astronaut guidance"),
     emoji("⚡ Build and implement cybersecurity solutions and automation tools"),
-    emoji("⚡ Create full-stack applications with focus on database management and API integration")
+    emoji("⚡ Create full-stack applications with focus on database management, cloud servers, and API integration")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -71,16 +71,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "React",
+      fontAwesomeClassname: "fa-brands fa-react"
+    },
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C, C#, C++",
+      fontAwesomeClassname: "fa-solid fa-c"
     }
   ],
   display: true
@@ -95,13 +95,15 @@ const educationInfo = {
       schoolName: "Columbia University",
       logo: require("./assets/images/columbiaLogo.png"), // You'll need to add this image
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "2022 - 2026",
+      duration: "2023 - 2026",
       desc: "Computer Science Major, Applied Math Minor. 4.0 GPA in CS, Dean's List.",
       descBullets: [
-        "Advanced Programming - C, Unix, TCP/IP, C++",
-        "Intro to Databases - SQL, Python, HTML",
-        "Data Structures - Java",
-        "VR & AR (Grad-Level) - JS/TS AR development"
+        "Advanced Programming        - C, Unix, TCP/IP, C++",
+        "Intro to Databases          - SQL, Python, HTML",
+        "Data Structures             - Java",
+        "VR & AR \t\t\t - JS/TS AR development, research analysis",
+        "Discrete Math, Linear Algebra, Probability & Statistics",
+        "UI Design, 3D UI Design, Applied Stats Computing (Next Semester)"
       ]
     }
   ]
@@ -110,7 +112,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -134,16 +136,50 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Software Engineer Intern",
+      company: "AMLAH - Columbia Build Lab",
+      companylogo: require("./assets/images/CBLLogo.jpg"),
+      date: "Jan 2025 - Present",
+      desc: "Agile development with a small team of engineers: AWS, React, and misc. web dev. as needed",
+      footerLink: [
+        {
+          name: "Company Website",
+          url: "https://columbiabuildlab.com"
+        }
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "SPMH Fund",
+      companylogo: require("./assets/images/CBLLogo.jpg"),
+      date: "Dec 2024 - Present",
+      desc: "This is a self-guided project integrating LLM knowledge management with the Snap Spectacles 24 AR glasses. I've set up a web server and frontend (served through Flask) as the knowledge management center, which connects to a multi-faceted information capture/saving/retrieval app on the Spectacles.",
+      footerLink: [
+        {
+          name: "Project Details",
+          url: "#"
+        }
+      ]
+    },
+    {
       role: "Cybersecurity and Field Automation Intern",
       company: "Hess Corporation",
-      companylogo: require("./assets/images/hessLogo.png"), // You'll need to add this image
+      companylogo: require("./assets/images/hessLogo.png"),
       date: "Summer 2024",
-      desc: "Combined multiple audit reports and built automation tools while implementing security solutions.",
+      desc: "Full-time internship combining cybersecurity audits and field automation initiatives in Minot, ND.",
       descBullets: [
-        "Developed unified dashboard for policy management",
-        "Built JS/Python MS Copilot API for secure LLM usage",
-        "Created training board for field automation workers",
-        "Implemented self-populating knowledge graph for company information"
+        "Combined hundreds of overlapping policies & recommendations into a unified dashboard",
+        "Built training board for field automation workers",
+        "Conducted on-site network/device assessments",
+        "Built a JS/Python MS Copilot API to adhere to data security policies while using LLMs",
+        "Developed Excel x Python tool to automate textual analysis on hundreds of rows",
+        "Proposed and set up a self-populating knowledge graph to centralize company info"
+      ],
+      footerLink: [
+        {
+          name: "Company Website",
+          url: "https://www.hess.com/"
+        }
       ]
     }
   ]
@@ -161,27 +197,49 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "MAJOR PROJECTS IN AR/VR AND SOFTWARE DEVELOPMENT",
+  subtitle: "MAJOR PROJECTS IN AUGMENTED REALITY",
   projects: [
     {
-      image: require("./assets/images/suitsLogo.webp"), // You'll need to add this image
-      projectName: "SUITS-23-24-HMD",
-      projectDesc: "Hololens 2 astronaut guidance system, tested at Johnson Space Center",
+      image: require("./assets/images/hccLogo.webp"),
+      projectName: "Homebrew Computer Club",
+      projectDesc: "Founded experimental tech club focused on rapid prototyping and demo-driven development",
       footerLink: [
         {
-          name: "View Project",
-          url: "https://github.com/hegstadjosh"
+          name: "Club Website",
+          url: "https://hcc.nyc"
         }
       ]
     },
     {
-      image: require("./assets/images/arMusic.webp"), // You'll need to add this image
+      image: require("./assets/images/suitsLogo.webp"),
+      projectName: "2025 NASA SUITS Challenge",
+      projectDesc: "Leading SWE team to develop Augmented Reality guidance systems for astronauts (Hololens 2, *new devices*)",
+      footerLink: [
+        {
+          name: "Last Year's Project",
+          url: "https://github.com/columbiaspace/SUITS-23-24-HMD"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/arMusic.webp"),
       projectName: "AR Music Training",
       projectDesc: "Music training application for Snap AR glasses using TypeScript/JavaScript",
       footerLink: [
         {
-          name: "View Project",
-          url: "https://github.com/hegstadjosh"
+          name: "In Progress",
+          url: "https://github.com/jx2518/DontFretUI_New"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/snapAR.webp"), // You'll need to add this image
+      projectName: "Snap AR PKM",
+      projectDesc: "Winter internship integrating AR glasses with personal knowledge management",
+      footerLink: [
+        {
+          name: "In Progress",
+          url: "#"
         }
       ]
     }
@@ -312,14 +370,14 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 📧"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open.",
-  number: "(701)-441-3371",
+  number: "",
   email_address: "j.hegstad@columbia.edu",
 };
 
