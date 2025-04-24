@@ -14,7 +14,6 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -25,7 +24,7 @@ const greeting = {
   subTitle: emoji(
     "Computer Science student at Columbia University 🚀 with experience in cybersecurity, Augmented Reality development, and full-stack programming. I'm passionate about tech, currently building AR-AI projects with Python, Java, C, C#, SQL, and Javascript. (Oh, and Cursor!)"
   ),
-  resumeLink: "https://drive.google.com/file/d/1cWS23R2m9YQrVxi-FGcojkqQxn_HWHbF/view?usp=sharing", // You can add your resume link here if desired
+  resumeLink: "https://drive.google.com/file/d/1bWeAWuQG0B3l66nQZjapkUzA-yV-ugJn/view?usp=sharing", // You can add your resume link here if desired
   displayGreeting: true
 };
 
